@@ -370,6 +370,8 @@ visibility: hidden;
 
 .footer .designed {
 margin-left: 1.5rem;
-margin-right: 0rem;
+margin-right: 0.5rem;
+justify-content: space-around;
+width: 100%;
 }
 }

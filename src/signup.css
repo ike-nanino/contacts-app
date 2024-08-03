@@ -1,0 +1,180 @@
+a{
+text-decoration: none;
+}
+*:focus {
+outline: none;
+}
+.signup-container {
+display: flex;
+flex-direction: row;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+
+.heading h2 {
+color: #4accdb;
+}
+
+#dark .heading h2 {
+color: white;
+}
+
+.heading p {
+color: #b6b6b6;
+}
+
+.login p {
+line-height: 1rem;;
+}
+
+aside{
+height: 100vh;
+width: 40%;
+background: #4fd8e8;
+justify-content: center;
+}
+
+#dark aside {
+background: #121212;
+color: white;
+}
+
+aside .details {
+text-align: center;
+padding: 10rem 0;
+}
+
+aside .login div {
+color: white;
+background: #4accdb;
+padding: 0.5rem;
+cursor: pointer;
+border-radius: 5px;
+border: none;
+margin-inline: auto;
+text-align: center;
+width: 100% ;
+max-width: max-content;
+}
+
+#dark aside .login div {
+background: #121212;
+color: white;
+border: 1px solid silver;
+}
+
+aside .login div:hover {
+transition: 250ms ease-in-out;
+color: #edf1f1;
+
+}
+
+#dark aside .login div:hover {
+transition: 250ms ease-in-out;
+color: #5e5e5c;
+background: #ededed;
+}
+
+.signup-form {
+display: flex;
+flex: 1;
+height: 100vh;;
+background: white;
+justify-content: center;
+}
+
+#dark .signup-form {
+background:  #141414;
+}
+
+.signup-details {
+padding: 10rem 0;
+text-align: center;
+width: 40%;
+}
+
+form .input-group {
+display: flex;
+margin-bottom: 0.6rem;
+background: rgb(247, 247, 247);
+padding: 0.8rem 0;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+form .input-group input {
+border: none;
+flex: 1;
+width: inherit;
+background-color: rgb(247, 247, 247);
+}
+
+form .input-group input::placeholder  {
+font-family: "League Spartan", sans-serif;
+border: none;
+}
+
+.icon {
+padding: 0 0.6rem ;
+font-size: 0.8rem;
+padding-top: 0.1rem;
+
+}
+
+.icon-eye {
+padding-right: 0.5rem ;
+font-size: 0.8rem;
+}
+
+.signup-btn {
+background: #4accdb;
+color: white;
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 1rem;
+}
+
+#dark .signup-btn {
+
+background: #121212;
+color: white;
+border: 1px solid silver;
+}
+
+.signup-btn:hover {
+transition: 250ms ease-in-out;
+color: #edf1f1;;
+}
+
+#dark .signup-btn:hover {
+transition: 250ms ease-in-out;
+color: #5e5e5c;
+background: #ededed;
+}
+
+@media (max-width: 560px) {
+aside {
+display: none;
+visibility: hidden;
+}
+
+.signup-form {
+height: 100vh;
+width: 100vw;
+max-width: 100vw;
+align-items: center;
+}
+
+.signup-form .signup-details {
+width: 100%;
+padding: 0 3rem;
+}
+
+
+
+
+}

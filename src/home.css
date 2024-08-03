@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+body {
+margin: 0;
+overflow-x: hidden;
+overflow-y: scroll;
+font-family: "League Spartan", sans-serif;
+
+}
+
+.wrapper {
+
+background: #4fd8e8 ;
+color: white;
+height: 30rem;
+width: 100vw;
+
+}
+
+
+#dark .wrapper {
+background: #121212;
+color: white;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0rem 7rem 0 7rem;
+padding-top: 2rem;
+
+
+}
+
+.header h1 {
+font-size: 1rem;
+font-weight: 500;
+position: relative;
+
+}
+
+
+.container {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.container .header-container h1 {
+font-size: 3rem;
+font-weight: 700;
+position: relative;
+margin-left: 7rem;
+}
+
+
+.container .header-container p {
+font-size: 1rem;
+font-weight: 300;
+margin-top: 1rem;
+margin-left: 7rem;
+
+}
+
+.container .header-container button {
+margin-left: 7rem;
+}
+
+
+.image-container {
+flex: 1;
+display: flex;
+flex-direction: column;
+margin-right: 7rem;
+
+
+}
+
+
+.image-container .header-button {
+margin-left: auto;
+
+}
+
+.image-container img {
+width: 100%;
+}
+
+.login-button {
+margin-right: 4rem;
+color: white;
+background: transparent;
+padding: 0.5rem;
+cursor: pointer;
+border: none;
+
+}
+
+.login-button:hover {
+
+transition: 250ms ease-in-out;
+color: #edf1f1;
+}
+
+.button {
+color: white;
+background: #4accdb;
+padding: 0.5rem;
+cursor: pointer;
+border-radius: 5px;
+border: none;
+}
+
+.button:hover {
+transition: 250ms ease-in-out;
+color: #edf1f1;
+}
+
+#dark .button {
+color: black;
+background: white;
+}
+
+#dark .button:hover {
+transition: 250ms ease-in-out;
+color: #5e5e5c;
+background: #ededed;
+}
+
+
+.middle-section {
+background: white;
+padding: 2rem 0;
+
+}
+
+#dark .middle-section {
+background: #141414;
+}
+
+.middle-section .title {
+font-size: 1.2rem;
+font-weight: 600;
+color: #4fd8e8 ;
+margin: 0rem 6rem;
+text-align: center;
+
+}
+
+#dark .middle-section .title {
+color: white;
+}
+
+.middle-section .desc {
+font-size: 1rem;
+color:#adabab;
+margin: 1rem 15rem;
+text-align: center;
+
+}
+
+
+.middle-section .remaining {
+display: none;
+}
+
+.middle-section .moretext {
+display: inline ;
+}
+
+
+
+
+.middle-section .cta {
+color: white;
+background: #4accdb;
+padding: 0.5rem;
+cursor: pointer;
+border-radius: 5px;
+border: none;
+margin-inline: auto;
+text-align: center;
+width: 100% ;
+max-width: max-content;
+
+}
+
+#dark .middle-section .cta {
+background: white;
+color: black;
+}
+
+.middle-section .cta:hover {
+transition: 250ms ease-in-out;
+color: #edf1f1;
+
+}
+
+#dark .middle-section .cta:hover {
+transition: 250ms ease-in-out;
+color: #5e5e5c;
+background: #ededed;
+}
+
+
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 6rem ;
+background: #f2f2f2;
+}
+
+#dark .footer {
+background:  #121212 ;
+}
+
+.footer  h1 {
+margin-left: 5rem;
+font-size: 0.8rem;
+font-weight: 500;
+color: #4fd8e8;
+}
+
+#dark .footer h1 {
+color: #b6b6b6;
+}
+
+.footer .designed {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 5rem ;
+
+
+}
+
+.footer .designed h3 {
+font-size: 1rem;
+margin-right: 5rem;
+font-weight: 500;
+color: #b6b6b6;
+}
+
+.footer .designed span {
+align-items: center;
+text-align: center;
+justify-content: center;
+font-size: 1rem ;
+cursor: pointer;
+}
+
+#dark .footer .designed span {
+color: white;
+}
+
+
+@media (max-width: 992px) {
+
+.container {
+padding-top: 2rem;
+}
+
+.image-container img {
+height: 300px;
+width: 100%;
+
+
+}
+}
+
+@media (max-width: 768px) {
+
+.container {
+padding-top: 5rem;
+}
+
+
+.image-container img {
+height: 200px;
+width: 100%;
+}
+
+.container .header-container h1 {
+font-size: 2rem;
+font-weight: 700;
+position: relative;
+margin-left: 7rem;
+}
+
+.container .header-container p {
+font-size: 0.8rem;
+font-weight: 300;
+margin-top: 1rem;
+margin-left: 7rem;
+
+}
+
+.container .header-container button {
+margin-left: 7rem;
+}
+
+.login-button {
+margin-right: 2rem;
+color: white;
+background: transparent;
+padding: 0.5rem;
+cursor: pointer;
+border: none;
+
+}
+
+.middle-section .desc {
+font-size: 1rem;
+color:#adabab;
+margin: 1rem 10rem;
+text-align: center;
+
+}
+
+}
+
+
+@media (max-width: 560px) {
+.image-container img {
+display: none;
+visibility: hidden;
+}
+
+.container .header-container h1 {
+margin-left: 2rem;
+}
+
+.container .header-container p {
+margin-left: 2rem;
+}
+
+.container .header-container button {
+margin-left: 2rem;
+}
+
+.header {
+padding-top: 1rem;
+margin: 0rem 2rem;
+}
+
+.middle-section .desc {
+font-size: 1rem;
+color:#adabab;
+margin: 1rem 6rem;
+text-align: center;
+
+}
+
+.middle-section .cta {
+
+padding: 0.5rem;
+}
+
+.footer  h1 {
+display: none;
+visibility: hidden;
+
+}
+
+.footer .designed {
+margin: 0 1rem;
+}
+}
